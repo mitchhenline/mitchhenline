@@ -1,0 +1,198 @@
+
+
+* {
+    margin: 0px;
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(205, 132, 68);
+
+}
+
+#top-div {
+    padding-top: 100px;
+}
+
+#header {
+    position: fixed;
+    height: 80px;
+    top: 0px;
+    /* background-color: rgb(58, 58, 58); */
+    background-image: linear-gradient(rgb(11, 11, 11), rgb(53, 53, 53));
+    z-index: 2;
+    width: 100%;
+}
+
+#nav-links {
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(199, 199, 199);
+    height:25px;
+    top: 80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+
+#bio-div {
+    margin-top: 80px;
+}
+  
+.nav-link-ind {
+margin: 0 100px;
+color: black;
+}
+
+.nav-link-ind:hover {
+color: rgb(22, 175, 91);
+}
+
+#main-body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.86), rgba(0, 0, 0, 0.86)), url("/static/images/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.list-header {
+    margin-top: 25px;
+}
+
+.logo {
+    height: 100px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.864)
+}
+
+.link-logo {
+    height: 45px;
+    padding: 5px;
+    margin: 10px;
+    margin-left: 15px;
+    margin-right: 25px;
+}
+
+#linkedinlogo {
+    margin-right: 40px;
+}
+
+#last-viddiv {
+    padding-bottom: 300px;
+}
+
+#logos {
+    display: flex;
+    /* justify-content: center; */
+    margin: auto;
+}
+
+
+.viddiv {
+    display: flex;
+    justify-content: center;
+    padding: 0px;
+    border: dotted;
+    margin-top: 30px;
+    margin-left: 30px;
+    
+}
+
+.project-div {
+    width: 65%;
+    margin: auto;
+    margin-top: 68px;
+}
+
+#python-logo {
+    height:120px;
+}
+
+#skills {
+    margin-top: 80px;
+    vertical-align: middle;
+    border-bottom: dotted;
+    border-width: 1px;
+    border-color: rgb(24, 148, 80);
+    padding-bottom: 50px;
+}
+
+#bio {
+    margin-top: 60px;
+    vertical-align: middle;
+    border-bottom: dotted;
+    border-width: 1px;
+    border-color: rgb(24, 148, 80);
+    padding-bottom: 50px;
+}
+
+#name {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.link {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+
+#links {
+    margin-top: 80px;
+    vertical-align: middle;
+    border-bottom: dotted;
+    border-width: 1px;
+    border-color: rgb(24, 148, 80);
+    padding-bottom: 50px;
+    
+}
+
+
+
+#myprojects {
+    font-size: 35px;
+}
+
+.proj-desc {
+    padding-left: 30px;
+}
+.proj-desc-2 {
+    padding-left: 60px;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.lightblue {
+    color: lightskyblue;
+}
+
+.green {
+    color: rgb(22, 175, 91);
+}
+
+.blue {
+    color: rgb(70, 70, 245);
+}
+
+.white {
+    color: white;
+}
+
+.lightyellow {
+    color: rgb(241, 226, 113);
+}
+
+.purple {
+    color: rgb(188, 11, 188);
+}
+
+#footer {
+    background-color: black;
+}
+
+#githublogo {
+    margin-left: 150px;
+}
