@@ -51,6 +51,7 @@ color: rgb(22, 175, 91);
     background-image: linear-gradient(rgba(0, 0, 0, 0.86), rgba(0, 0, 0, 0.86)), url("/static/images/background.jpg");
     background-size: cover;
     background-attachment: fixed;
+    background-color: black;
 }
 
 .list-header {
@@ -148,7 +149,13 @@ color: rgb(22, 175, 91);
     
 }
 
+#me-link {
+    font-size: 20px;
+}
 
+#me-link:hover {
+    color: rgb(22, 175, 91);
+}
 
 #myprojects {
     font-size: 35px;

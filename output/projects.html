@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <title>
+        My Projects
+    </title>
+</head>
+<body id="main-body">
+    
+
+
+
+
+    
+    <div id="header">
+        <div id="logos">
+            <a href="https://github.com/mitchhenline" target="_blank">
+                <img id="githublogo" class="link-logo" src="/static/images/pngegg.png">
+            </a>
+            <a href="https://www.linkedin.com/in/mitch-henline-b1aa939b/" target="_blank">
+                <img class="link-logo" id="linkedinlogo" src="/static/images/kisspng-linkedin-logo-computer-icons-business-symbol-linkedin-icon-5ab1765660baa8.1191823015215796063962.png">
+            </a>
+            <h1 id="name">
+                <span class="blue">class</span>&nbsp;<span class="green">MitchHenline</span><span class="yellow">(</span><span class="lightblue">ProfessionalPythonEngineer</span><span class="yellow">)</span><span class="white">:</span>
+            </h1>
+        </div>
+    </div>
+    
+    
+
+    <div id="nav-links">
+        <a href="/" class="nav-link-ind">Home</a>
+        <a href="/projects.html" class="nav-link-ind">Projects</a>
+        <a href="/about_me.html" class="nav-link-ind">About Me</a>
+    </div>
+
+
+
+
+    <div class="project-div" id="top-div">
+
+        <h2 id="myprojects" class="project-title"><span class="white">my_projects.py</span></h2><br><br><br>
+
+        <h2 class="project-title"><span class="blue">class</span> <span class="green">BaseProject</span><span class="yellow">()</span><span class="white">:</span></h2>
+            <p class="proj-desc"><span class="lightblue">def</span><span class="lightyellow">__init__</span><span class="yellow">(</span><span class = "lightblue">self</span><span class="white">,</span> <span class = "lightblue">project_stack</span><span class="white">:</span><span class="blue"> List</span><span class="purple">[</span><span class="green">str</span><span class="purple">]</span><span class="white">,</span> <span class = "lightblue">project_description</span><span class="white">:</span> <span class="green">str</span><span class="white">,</span> <span class = "lightblue">video</span><span class="white">:</span><span class="blue"> URL</span><span class="yellow">)</span><span class="white">:</span></p>
+            <p class="proj-desc-2"> <span class="lightblue">project_stack </span><span class="white">=</span> <span class="lightblue">self</span><span class="white">.project_stack</span></p>
+            <p class="proj-desc-2"><span class="lightblue">project_description</span> <span class="white">=</span> <span class="lightblue">self</span><span class="white">.project_description</span></p>
+            <p class="proj-desc-2"><span class="lightblue">video</span> <span class="white">=</span> <span class="lightblue">self</span><span class="white">.video</span></p>
+
+        </div>
+
+        <div class="project-div">
+            <h2 class="project-title"><span class="blue">class</span> <span class="green">Kredible</span><span class="yellow">(</span><span class="lightblue">BaseProject</span><span class="yellow">)</span><span class="white">:</span></h2><br>
+            <p class="proj-desc"><span class="lightblue">project_stack</span><span class="white"> =</span> <span class="yellow">[</span>"Python"<span class="white">,</span> "Flask"<span class="white">,</span> "PostgreSQL"<span class="white">,</span> "HTML"<span class="white">,</span> "CSS"<span class="white">,</span> "WTForms"<span class="yellow">]</span></p><br>
+            <p class="proj-desc"><span class="lightblue">project_description</span><span class="white"> =</span> "While in the SaaS sales industry, I learned how beneficial it is for sales representatives to connect their prospects with current satisfied customers -- also known as sales advocates -- for reference calls. Doing this greatly increases the chance of a sale, but it can be difficult to pull off, mainly due to reasons such as not having a process in place, scheduling conflicts, or simply that the advocate is not incentivized to meet. I am creating a scheduling app that solves these problems. <br><br>Using Kredible, sales representatives can view the current availability of their advocates and request meetings. Sales advocates, in turn, can log in, view and accept these reference calls, and are incentivized to do so by receiving gift cards in exchange for completed meetings."</p><br>
+            <p class="proj-desc"><span class="lightblue">video</span><span class="white"> =</p><br>
+            <div class="viddiv">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Pf4k4zGrH3c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="project-div">
+
+            <h2 class="project-title"><span class="blue">class</span> <span class="green">ConcertChecklist</span><span class="yellow">(</span><span class="lightblue">BaseProject</span><span class="yellow">)</span><span class="white">:</span></h2><br>
+            <p class="proj-desc"><span class="lightblue">project_stack</span><span class="white"> =</span> <span class="yellow">[</span>"Python"<span class="white">,</span> "Flask"<span class="white">,</span> "PostgreSQL"<span class="white">,</span> "HTML"<span class="white">,</span> "CSS"<span class="white">,</span> "WTForms"<span class="yellow">]</span></p><br>
+            <p class="proj-desc"><span class="lightblue">project_description</span><span class="white"> =</span> "I am a big fan of live music. I've been to a lot of shows. After struggling to remember and come up with the number of concerts I've attended, I decided to practice my SQL skills and create an app that could help me.<br><br>The ConcertChecklist is an app that allows users to easily enter the concerts they've attended into a database and make lists of concerts they'd like to attend.<br><br>I also put a lot of focus into the UI of this app, spending a lot of time on the CSS to make sure it looked good.</be>"</p><br>
+            <p class="proj-desc"><span class="lightblue">video</span><span class="white"> =</p><br>
+            <div class="viddiv">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/qGKcJ2bvqnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="project-div" id="last-viddiv">
+            <h2 class="project-title"><span class="blue">class</span> <span class="green">PastimeProject</span><span class="yellow">(</span><span class="lightblue">BaseProject</span><span class="yellow">)</span><span class="white">:</span></h2><br>
+            <p class="proj-desc"><span class="lightblue">project_stack</span><span class="white"> =</span> <span class="yellow">[</span>"HTML"<span class="white">,</span> "JavaScript"<span class="white">,</span> "Axios"<span class="white">,</span> "CSS"<span class="yellow">]</span></p><br>
+            <p class="proj-desc"><span class="lightblue">project_description</span><span class="white"> =</span> "My first fullstack app, which allows the user to search a database to retrieve information about all 150 major and minor league baseball parks. The user is able to use dropdown menus to easily select the park by the home team and according to its league. There is also a 'random park' function and a bucketlist feature, which lets the user make notes of parks they find interesting for future reference."</p><br>
+            <p class="proj-desc"><span class="lightblue">video</span><span class="white"> =</p><br>
+                <div class="viddiv">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/cMZMsHdTRms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div> 
+        </div>
+    </div>
+    
+
+
+
+
+
+  
+</body>
+</html>
