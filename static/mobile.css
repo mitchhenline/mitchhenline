@@ -1,0 +1,23 @@
+@media only screen and (max-width: 768px) {
+    /* styles for mobile devices */
+    body {
+      background-color: #f2f2f2;
+    }
+    
+    /* hide desktop elements */
+    #desktop-header {
+      display: none;
+    }
+    #desktop-content {
+      display: none;
+    }
+    
+    /* show mobile elements */
+    #mobile-header {
+      display: block;
+    }
+    #mobile-content {
+      display: block;
+    }
+  }
+  
